@@ -6,14 +6,17 @@ const Login = () => {
   if (session) {
     return (
       <>
-        Signed in as {session.user.email} <br />
+        <div className="sessionUser">
+          <p>Welcom, {session.user.email}</p>
+          <img src={session.user.image} alt="Image" />
+        </div>
         <button onClick={() => signOut()}>Sign Out</button>
       </>
     );
   } else {
     return (
       <>
-        Not signed in <br />
+        <p>Your are not signed in.</p>
         <button onClick={() => signIn()}>Sign In</button>
       </>
     );
