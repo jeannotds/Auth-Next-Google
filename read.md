@@ -1,3 +1,7 @@
+Auth links ====> https://www.npmjs.com/package/next-auth
+
+
+
 NextAuth.js est une solution d'authentification open source complète pour les applications
 
 Utilise https://console.cloud.google.com/getting-started pour id
